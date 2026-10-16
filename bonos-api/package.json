@@ -1,0 +1,18 @@
+{
+  "name": "bonos-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=../.env src/index.js",
+    "test": "node --env-file=../.env node_modules/vitest/vitest.mjs run"
+  },
+  "dependencies": {
+    "express": "^4.22.3",
+    "mongodb": "^6.21.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.1",
+    "vitest": "^2.1.9"
+  }
+}

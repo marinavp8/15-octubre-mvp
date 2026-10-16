@@ -1,0 +1,21 @@
+{
+  "name": "orquestador",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=../.env src/index.js",
+    "test": "node --env-file=../.env node_modules/vitest/vitest.mjs run"
+  },
+  "dependencies": {
+    "bullmq": "^5.81.5",
+    "cors": "^2.8.6",
+    "express": "^4.22.3",
+    "ioredis": "^5.11.1",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.1",
+    "vitest": "^2.1.9"
+  }
+}
